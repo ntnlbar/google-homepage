@@ -1,1 +1,19 @@
+* {
+  margin: 0; padding: 0;
+}
 
+
+
+.logo {
+  position: absolute;
+  top: 23%;
+  left: 42%;
+}
+
+.logo-subtext {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: relative;
+  top: -21px;
+  left: 217px;
+}
