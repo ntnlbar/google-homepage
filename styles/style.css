@@ -2,8 +2,6 @@
   margin: 0; padding: 0;
 }
 
-
-
 .logo {
   position: absolute;
   top: 23%;
@@ -16,4 +14,47 @@
   position: relative;
   top: -21px;
   left: 217px;
+}
+
+.name_icon {
+  border-radius: 50%;
+}
+
+.ring_icon {
+  background-color: rgba(0,0,0,.55);
+  border-radius: 50%;
+  top: -5px;
+}
+
+.ring_icon:hover{
+  background-color: black;
+}
+
+.more_icon {
+  color: rgba(0,0,0,.55);
+  top: -7px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.75);
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  top: -11px
+}
+
+.menu a:hover{
+  color: rgba(0,0,0,1);
+  text-decoration: underline;
+}
+
+.menu{
+  position: relative;
+  top: 15px;
+  left: 28px;
+}
+
+.menu *{
+  margin: 0 8px;
+  position: relative;
 }
