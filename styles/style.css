@@ -111,3 +111,49 @@ input {
 .kbd img{
   opacity: 0.6;
 }
+
+.search_buttons {
+  position :absolute;
+  top: 45%;
+  left: 42%;
+}
+
+.search_more_btn, .search_btn {
+  background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  border-radius: 2px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #757575;
+  width: 127px;
+  height: 36px;
+}
+
+.search_more_btn:hover, .search_btn:hover {
+  color: black;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  border: 1px solid #c6c6c6;
+}
+
+.more_info {
+  position: absolute;
+  top: 53%;
+  left: 45%;
+  font-family: arial;
+  font-size: small;
+}
+
+.more_info a {
+  text-decoration: none;
+  color: #609;
+  padding: 0 3px;
+}
+
+.more_info a:hover {
+  text-decoration: underline;
+}
+
+.he {
+  display: inline-block;
+}
